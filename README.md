@@ -42,8 +42,8 @@ Each topic folder contains:
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/data-science-learning.git
-cd data-science-learning
+git clone https://github.com/azharaul/ds-ml-learning-journey.git
+cd ds-ml-learning-journey
 ```
 
 ### Using Miniconda
