@@ -33,7 +33,7 @@ Each topic folder contains:
 - [x] Data Preprocessing (missing values, encoding, scaling)
 - [x] Basic ML Models (regression & classification)
 - [x] Model Evaluation Metrics (R², MAE, MSE, ROC-AUC, Cross-Validation)
-- [ ] Hyperparameter Tuning
+- [x] Hyperparameter Tuning
 - [ ] Deep Learning
 - [ ] End-to-end Projects
 
