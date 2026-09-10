@@ -46,7 +46,7 @@ git clone https://github.com/your-username/data-science-learning.git
 cd data-science-learning
 ```
 
-### Using Miniconda (recommended)
+### Using Miniconda
 
 ```bash
 # Create a new environment
