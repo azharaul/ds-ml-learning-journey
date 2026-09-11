@@ -91,5 +91,6 @@ To find out:
 ## 🛠️ Tools Used
 
 - Python, Pandas, NumPy
-- Scikit-Learn (`Lasso`, `LinearRegression`, `RandomForestRegressor`, `GridSearchCV`, `RandomizedSearchCV`)
-- SciPy (`zscore`)
+- Matplotlib, Seaborn
+- Scikit-Learn 
+- SciPy 
