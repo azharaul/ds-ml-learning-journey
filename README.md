@@ -1,80 +1,80 @@
-# 📚 Data Science & Machine Learning Learning Journey
+# 📚 Machine Learning Zoomcamp Learning Journey
 
-This repository contains my notes, exercises, and projects while learning Data Science and Machine Learning.
+Repository ini berisi catatan, latihan, dan notebook saya selama belajar Machine Learning. Saat ini saya mengikuti kurikulum **Machine Learning Zoomcamp** dari [DataTalks.Club](https://github.com/DataTalksClub/machine-learning-zoomcamp).
 
-## 🗂️ Structure
+## 🗂️ Struktur Repository
 
-```
-├── 01-python-basics/            # Python fundamentals for Data Science
-├── 02-numpy-pandas/             # NumPy & Pandas
-├── 03-data-preprocessing/       # Handling missing data, encoding, feature scaling
-├── 04-machine-learning-basic/   # Basic ML models (regression & classification)
-├── 05-model-evaluation/         # Evaluation metrics (R², MAE, MSE, ROC-AUC, etc.)
-├── 06-hyperparameter-tuning/    # Model tuning (RandomizedSearchCV, GridSearchCV)
-├── 07-deep-learning/            # Deep learning (upcoming)
-└── projects/                    # End-to-end portfolio projects
+```text
+├── 01-numpy-pandas/          # Eksplorasi NumPy, Pandas, dan visualisasi data
+├── 02-data-preprocessing/    # Preprocessing dan persiapan data
+├── 03-machine-learning/      # Model klasifikasi dan regresi
+├── 05-hyperparameter-tuning/ # Pencarian hyperparameter
+├── 06-deep-learning/         # Eksperimen deep learning
+└── homework/                 # Notebook tugas
 ```
 
-Each topic folder contains:
+Folder dapat berisi notebook, data latihan, dan file pendukung untuk materi terkait.
 
-- `notebooks/` — Jupyter notebooks with code and experiments
-- `notes.md` — Summary notes of what I learned
-
-## 🛠️ Tools & Libraries
+## 🛠️ Tools dan Library
 
 - Python
-- NumPy, Pandas
-- Scikit-Learn
-- Matplotlib, Seaborn
+- NumPy dan Pandas
+- Scikit-learn
+- Matplotlib dan Seaborn
 - Jupyter Notebook
 
-## 📈 Progress
+## 📈 Materi yang Sudah Ada di Repository
 
-- [x] Data Preprocessing (missing values, encoding, scaling)
-- [x] Basic ML Models (regression & classification)
-- [x] Model Evaluation Metrics (R², MAE, MSE, ROC-AUC, Cross-Validation)
-- [x] Hyperparameter Tuning
-- [ ] Deep Learning
-- [ ] End-to-end Projects
+- Eksplorasi dan visualisasi data
+- Preprocessing data, termasuk penanganan missing values, encoding, dan feature scaling
+- Model machine learning untuk klasifikasi dan regresi
+- Evaluasi model dan cross-validation
+- Hyperparameter tuning dengan `RandomizedSearchCV` dan `GridSearchCV`
+- Eksperimen deep learning
 
-## 🚀 Getting Started
+Notebook dan tugas akan terus bertambah seiring saya mengikuti materi Machine Learning Zoomcamp.
 
-Clone this repository:
+## 🚀 Menjalankan Notebook
+
+Clone repository:
 
 ```bash
 git clone https://github.com/azharaul/ds-ml-learning-journey.git
 cd ds-ml-learning-journey
 ```
 
-### Using Miniconda
+Buat dan aktifkan virtual environment:
 
 ```bash
-# Create a new environment
-conda create -n data-science-env python=3.11
-
-# Activate the environment
-conda activate data-science-env
-
-# Install dependencies
-pip install -r requirements.txt
+python -m venv .venv
 ```
 
-### Using plain pip / venv
+Di Windows:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+Di macOS atau Linux:
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # on Windows: venv\Scripts\activate
-pip install -r requirements.txt
+source .venv/bin/activate
 ```
 
-## 📝 Learning Resources
+Install dependencies:
 
-- [Zero to Mastery - Complete A.I. & Machine Learning, Data Science Bootcamp](https://zerotomastery.io/)
-- [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
-- [NumPy Documentation](https://numpy.org/doc/stable/)
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Matplotlib Documentation](https://matplotlib.org/stable/index.html)
+```bash
+pip install -r Requirements.txt
+```
 
-## 📄 License
+## 📝 Referensi Belajar
 
-This repository is for personal learning purposes. Feel free to explore and use the code as reference.
+- [Machine Learning Zoomcamp — DataTalks.Club](https://github.com/DataTalksClub/machine-learning-zoomcamp)
+- [Dokumentasi Scikit-learn](https://scikit-learn.org/stable/)
+- [Dokumentasi NumPy](https://numpy.org/doc/stable/)
+- [Dokumentasi Pandas](https://pandas.pydata.org/docs/)
+- [Dokumentasi Matplotlib](https://matplotlib.org/stable/)
+
+## 📄 Lisensi
+
+Repository ini dibuat untuk keperluan belajar pribadi. Silakan menjelajahi notebook dan menggunakannya sebagai referensi.
