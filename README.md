@@ -1,7 +1,5 @@
 # 📚 Machine Learning Zoomcamp Learning Journey
 
-Repository ini berisi catatan, latihan, dan notebook saya selama belajar Machine Learning. Saat ini saya mengikuti kurikulum **Machine Learning Zoomcamp** dari [DataTalks.Club](https://github.com/DataTalksClub/machine-learning-zoomcamp).
-
 ## 🗂️ Struktur Repository
 
 ```text
