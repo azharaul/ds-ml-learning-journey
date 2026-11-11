@@ -20,6 +20,7 @@ Folder dapat berisi notebook, data latihan, dan file pendukung untuk materi terk
 - Scikit-learn
 - Matplotlib dan Seaborn
 - Jupyter Notebook
+- Visual Studio Code
 
 ## 📈 Materi yang Sudah Ada di Repository
 
